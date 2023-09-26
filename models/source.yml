@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dm_demo # this is the source_name
+    database: demo
+    schema: bookings
+    tables:
+      - name: flight # this is the table_name
+      - name: bookings
+      - name: airports_data
