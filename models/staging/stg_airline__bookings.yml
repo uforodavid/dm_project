@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_airline__bookings
+    description: ""
+    columns:
+      - name: book_ref
+        data_type: character
+        description: ""
+
+      - name: book_date
+        data_type: timestamp with time zone
+        description: ""
+
+      - name: total_amount
+        data_type: numeric
+        description: ""

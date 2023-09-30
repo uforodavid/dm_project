@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_airline__seats
+    description: ""
+    columns:
+      - name: aircraft_code
+        data_type: character
+        description: ""
+
+      - name: seat_no
+        data_type: character varying
+        description: ""
+
+      - name: fare_conditions
+        data_type: character varying
+        description: ""

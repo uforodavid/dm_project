@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: stg_airline__airports_data
+    description: ""
+    columns:
+      - name: airport_code
+        data_type: character
+        description: ""
+
+      - name: airport_english_name
+        data_type: text
+        description: ""
+
+      - name: airport_russian_name
+        data_type: text
+        description: ""
+
+      - name: city_english_name
+        data_type: text
+        description: ""
+
+      - name: city_russian_name
+        data_type: text
+        description: ""
+
+      - name: timezone_continent
+        data_type: text
+        description: ""
+
+      - name: timezone_city
+        data_type: text
+        description: ""
+
+      - name: coordinates
+        data_type: point
+        description: ""

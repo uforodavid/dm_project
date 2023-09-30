@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: stg_airline__tickets
+    description: ""
+    columns:
+      - name: ticket_no
+        data_type: character
+        description: ""
+
+      - name: book_ref
+        data_type: character
+        description: ""
+
+      - name: passenger_id
+        data_type: character varying
+        description: ""
+
+      - name: passenger_name
+        data_type: text
+        description: ""
+
+      - name: phone_number
+        data_type: text
+        description: ""
+
+      - name: email
+        data_type: text
+        description: ""

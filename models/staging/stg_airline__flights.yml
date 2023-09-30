@@ -1,0 +1,45 @@
+version: 2
+
+models:
+  - name: stg_airline__flights
+    description: ""
+    columns:
+      - name: flight_id
+        data_type: integer
+        description: ""
+
+      - name: flight_no
+        data_type: character
+        description: ""
+
+      - name: scheduled_departure
+        data_type: timestamp with time zone
+        description: ""
+
+      - name: scheduled_arrival
+        data_type: timestamp with time zone
+        description: ""
+
+      - name: departure_airport
+        data_type: character
+        description: ""
+
+      - name: arrival_airport
+        data_type: character
+        description: ""
+
+      - name: status
+        data_type: character varying
+        description: ""
+
+      - name: aircraft_code
+        data_type: character
+        description: ""
+
+      - name: actual_departure
+        data_type: timestamp with time zone
+        description: ""
+
+      - name: actual_arrival
+        data_type: timestamp with time zone
+        description: ""

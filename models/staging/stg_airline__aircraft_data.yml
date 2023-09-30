@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_airline__aircraft_data
+    description: "this contains aircraft data"
+    columns:
+      - name: aircraft_code
+        data_type: character
+        description: ""
+
+      - name: english_model
+        data_type: text
+        description: ""
+
+      - name: russian_model
+        data_type: text
+        description: ""
+
+      - name: range
+        data_type: integer
+        description: ""

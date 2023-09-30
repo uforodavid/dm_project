@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_airline__boarding_passes
+    description: ""
+    columns:
+      - name: ticket_no
+        data_type: character
+        description: ""
+
+      - name: flight_id
+        data_type: integer
+        description: ""
+
+      - name: boarding_no
+        data_type: integer
+        description: ""
+
+      - name: seat_no
+        data_type: character varying
+        description: ""
