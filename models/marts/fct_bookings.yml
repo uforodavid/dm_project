@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: fct_bookings
+    description: ""
+    columns:
+      - name: book_date
+        data_type: timestamp with time zone
+        description: ""
+
+      - name: book_ref
+        data_type: character
+        description: ""
+
+      - name: total_amount
+        data_type: numeric
+        description: ""

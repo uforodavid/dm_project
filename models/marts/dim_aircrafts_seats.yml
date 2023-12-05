@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: dim_aircrafts_seats
+    description: ""
+    columns:
+      - name: aircraft_code
+        data_type: character
+        description: ""
+
+      - name: english_model
+        data_type: text
+        description: ""
+
+      - name: russian_model
+        data_type: text
+        description: ""
+
+      - name: range
+        data_type: integer
+        description: ""
+
+      - name: seat_no
+        data_type: character varying
+        description: ""
+
+      - name: fare_conditions
+        data_type: character varying
+        description: ""
