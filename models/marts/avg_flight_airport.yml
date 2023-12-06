@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: avg_flight_airport
+    description: ""
+    columns:
+      - name: departure_airport
+        data_type: text
+        description: ""
+
+      - name: avg_flight_time
+        data_type: interval
+        description: ""
+
+      - name: number_of_flights
+        data_type: bigint
+        description: ""
