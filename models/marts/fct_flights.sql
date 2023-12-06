@@ -32,6 +32,7 @@ boarding as (
         {{ref('stg_airline__boarding_passes')}}
 )
 select
+    {{ dbt_utils.generate_surrogate_key(['tflight.ticket_no', 'tflight.flight_id','boarding.boarding_no','boarding.seat_no']) }} as unique_id,
     tflight.ticket_no,
     tflight.flight_id,
     boarding.boarding_no,
